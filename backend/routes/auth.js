@@ -54,7 +54,7 @@ try{
     res.json({authtoken})
 
 
-}catch(error){
+} catch(error){
     console.error(error.message);
     res.status(500).send("Internal server error");
 }
