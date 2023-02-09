@@ -4,7 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   let location = useLocation();
-  console.log(location.pathname)
+  // console.log(location.pathname)
   
   return (
     <>
